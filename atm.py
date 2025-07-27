@@ -49,5 +49,7 @@ while True:
         elif option == 5:
             print("Thank you for using the ATM. Goodbye!")
             break
+        else:
+            print("Invalid option. Please try again.")
     else:
         print("Incorrect PIN. Please try again.")
